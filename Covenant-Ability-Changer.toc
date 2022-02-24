@@ -1,6 +1,6 @@
 ## Interface: 90200
 ## Version: 1.5
 ## Title: Covenant Ability Changer
-## Author: Anijia
+## Author: AyJayCoding
 ## Notes: Updates the Covenant Signature Ability as well as the class specific covenant ability
 code.lua
