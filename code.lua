@@ -206,12 +206,7 @@ do
 				classAbilityName = "";
 			end	
 			classAbilityNameTooltip = classAbilityName;
-			-- Making Fae guardians self cast for priest when no valid target selected
-			if classIndex == 5 then
-				classAbilityMacroStr = "[@target,help,exists] [@player] "..classAbilityName;		
-			else
-				classAbilityMacroStr = classAbilityName;
-			end
+			classAbilityMacroStr = classAbilityName;
 			signatureAbilityName = GetSpellInfo(signatureAbilities[playerCovenant]);
 			-- fall back on connect sometimes GetSpellInfo fail
 			if signatureAbilityName == nil then
