@@ -1,4 +1,4 @@
--- This file is loaded from "CovenantAbilityChanger.toc"
+-- This file is loaded from "Covenant-Ability-Changer.toc"
 do
 	-- Setting up arrays: [Warrior = 1, Paladin = 2, Hunter = 3, Rogue = 4, Priest = 5, DeathKnight = 6, Shaman = 7, Mage = 8, Warlock = 9, Monk = 10, Druid = 11, Demon Hunter = 12]
 
