@@ -1,6 +1,8 @@
-## Interface: 90200
-## Version: 1.5
+## Interface: 90205
+## Version: 1.9
 ## Title: Covenant Ability Changer
 ## Author: AyJayCoding
 ## Notes: Updates the Covenant Signature Ability as well as the class specific covenant ability
+## X-Curse-Project-ID: 545436
+## X-Wago-ID: yQKymvK7
 code.lua
