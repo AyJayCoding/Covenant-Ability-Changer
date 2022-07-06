@@ -206,7 +206,12 @@ do
 				classAbilityName = "";
 			end	
 			classAbilityNameTooltip = classAbilityName;
-			classAbilityMacroStr = classAbilityName;
+			-- Making wild spirits cast at cursor for hunters when alt modifier is pressed
+			if classIndex == 3 then
+				classAbilityMacroStr = "[@cursor,mod:alt] "..classAbilityName .. "; ".. classAbilityName;
+			else
+				classAbilityMacroStr = classAbilityName;			
+			end
 			signatureAbilityName = GetSpellInfo(signatureAbilities[playerCovenant]);
 			-- fall back on connect sometimes GetSpellInfo fail
 			if signatureAbilityName == nil then
