@@ -1,5 +1,5 @@
-## Interface: 90205
-## Version: 1.9
+## Interface: 90207
+## Version: 1.9.1
 ## Title: Covenant Ability Changer
 ## Author: AyJayCoding
 ## Notes: Updates the Covenant Signature Ability as well as the class specific covenant ability
